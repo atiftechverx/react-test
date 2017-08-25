@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from '../logo.svg';
+import '../styles/App.css';
 
-class App extends Component {
+class Home extends Component {
   render() {
     return (
       <div className="App">
@@ -11,7 +11,6 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <p className="App-intro">
-          <h1>Hello Dear!</h1>
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
       </div>
@@ -19,4 +18,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Home;
